@@ -10,12 +10,12 @@ body{
     padding-bottom: 5%;
 
 }
-a{
+a.menu{
     color:rgb(86, 162, 167);
     text-decoration: unset;
     font-size: 20px;
 }
-a:hover{
+a.menu:hover{
     display: flex;
     justify-content: space-evenly;
     background-color:rgb(86, 162, 167);
@@ -81,18 +81,35 @@ a:hover{
     -webkit-line-clamp: 5; /* numero de linhas para mostrar de texto*/
     -webkit-box-orient: vertical;
 }
-.button {
+a.button{
     background-color: white;
     color:  rgb(255, 140, 95);
     width: 14%;
     border-radius: 100%;
     font-size: 36px;
     display: inline-block
-  }
-  .button:hover {
-    background-color: rgb(255, 140, 95); /* Green */
+}
+
+a.button:hover{
+    background-color: rgb(255, 140, 95); 
     color: white;
   }
+.button{
+    background-color: white;
+    color:  rgb(255, 140, 95);
+    width: 14%;
+    border-radius: 100%;
+    font-size: 36px;
+    display: inline-block
+    }
+    .button:hover{
+        background-color: rgb(255, 140, 95); 
+        color: white;
+      }
+a.none{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.199);
+}
 .newDestaque1{
     background-color: rgb(255, 169, 136);
     padding-bottom: 8%;
