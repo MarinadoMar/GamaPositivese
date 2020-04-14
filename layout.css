@@ -100,7 +100,8 @@ a.button:hover{
     width: 14%;
     border-radius: 100%;
     font-size: 36px;
-    display: inline-block
+    display: inline-block;
+    text-decoration: unset;
     }
     .button:hover{
         background-color: rgb(255, 140, 95); 
