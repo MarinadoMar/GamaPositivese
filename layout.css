@@ -1,6 +1,7 @@
 body{
     background-color: rgb(121, 86, 167);
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    
 }
 #cabecalho{
     font-size: 40px;
@@ -43,6 +44,12 @@ a.menu:hover{
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
+}
+  .img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    /* object fit cropa a imagem para caber no tamanho definido acima */
 }
 #aprender{
     background-color: rgb(255, 144, 101);
@@ -126,7 +133,7 @@ a.none{
     color:white;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     text-align: center;
 }
 .new{
@@ -137,4 +144,11 @@ a.none{
     padding-bottom: 3%;
     padding-left: 7%;
     padding-right: 7%;
+}
+#rodape{
+    background-color: rgb(86, 162, 167);
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }

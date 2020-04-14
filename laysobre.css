@@ -36,6 +36,11 @@ a.menu:hover{
     outline-color: rgb(121, 86, 167);
     outline-width: 30px;   
 }
+.m{
+    text-align: center;
+    color:white;
+    padding-top: 3%
+}
 #sobre{
     text-align: center;
     color:white;
@@ -65,4 +70,11 @@ a.button:hover{
     background-color: rgb(255, 140, 95); 
     color: white;
   }
-
+  #rodape{
+    background-color: rgb(86, 162, 167);
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-top: 30px;
+}
