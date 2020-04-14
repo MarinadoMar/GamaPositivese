@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(121, 86, 167);
+    font-family:'Courier New', Courier, monospace
+}
+#cabecalho{
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+a{
+    color:rgb(86, 162, 167);
+    text-decoration: unset;
+    font-size: 20px;
+}
+a:hover{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(86, 162, 167);
+    text-align: justify ;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color:white;
+  }
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    outline-style: solid;
+    outline-color: rgb(121, 86, 167);
+    outline-width: 30px;   
+}
+#newsMenu{
+    display: flex;
+    color:white;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+#aprender{
+    background-color: rgb(255, 144, 101);
+    width: 300px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center
+}
+#inspirar{
+    background-color: rgb(255, 144, 101);
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 300px;
+    text-align: center
+}
+#informar{
+    background-color: rgb(255, 140, 95);
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 300px;
+    text-align: center
+}
+.tag{
+    color: rgb(255, 91, 27)
+}
+.liltxt{
+    display: -webkit-box; /* permite que coloque um bloco de texto e limite o numero de linhas */
+    overflow: hidden;
+    text-overflow: ellipsis; /*adiciona 3 pontos no final*/
+    -webkit-line-clamp: 5; /* numero de linhas para mostrar de texto*/
+    -webkit-box-orient: vertical;
+}
+.button {
+    background-color: white;
+    color:  rgb(255, 140, 95);
+    width: 14%;
+    border-radius: 100%;
+    font-size: 36px;
+    display: inline-block
+  }
+  .button:hover {
+    background-color: rgb(255, 140, 95); /* Green */
+    color: white;
+  }
+.newDestaque1{
+    background-color: rgb(255, 169, 136);
+    padding-bottom: 8%;
+    margin-bottom: 20px;
+}
+.newDestaque2{
+    background-color: rgb(255, 169, 136);
+    padding-bottom: 8%;
+    margin-bottom: 20px;
+}
+#longNews{
+    display:inline-block;
+    color:white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.new{
+    background-color: rgba(255, 255, 255, 0.199);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
